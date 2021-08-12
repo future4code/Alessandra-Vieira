@@ -1,10 +1,13 @@
 console.log("Exercicios de Strings e Arryas da aluna: Alessandra Ferreira")
 
+
 //---------------------------Exercícios de interpretação de código--------------------------------
+
 
 //----Exercicio 1
 
 // No Primeiro Exercicio, e eu tive que colocar no vs code para ver o resultado, deu a seguinte resposta:
+
 //a.  undefined
 //b.  null
 //c.  11
@@ -15,9 +18,11 @@ console.log("Exercicios de Strings e Arryas da aluna: Alessandra Ferreira")
 //----Exercicio 2
 
 //Qual será o valor impresso no console se a entrada do usuário for: `"Subi num ônibus em Marrocos"`?
-//"SUBI NUM ÔNIBUS EM MIRROCOS" 29
+//"SUBA NUM ÔNABUS EM MIRROCOS" 27
+
 
 //--------------------------Exercícios de escrita de código----------------------------------
+
 
 //----Exercicio 1
 
@@ -26,26 +31,65 @@ const emailDoUsuario = prompt("Qual é o seu email?")
 
 console.log("O email " + emailDoUsuario + " foi cadastrado com sucesso. Seja bem-vindo(a)," + nomeDoUsuario + "!")
 
-//D
+//
+
 
 //----Exercicio 2
 
-const comidaFavorita = ["lasanha", "panqueca", "salada", "churrasco", "macarrão"]
+const comidasPreferidas = ["lasanha", "panqueca", "salada", "churrasco", "macarrão"]
 
-console.log(comidaFavorita)
+//a. 
+console.log(comidasPreferidas)
+//b.
 console.log("Essas são as minhas comidas favoritas:")
-console.log("lasanha")
-console.log("panqueca")
-console.log("salada")
-console.log("churrasco")
-console.log("macarrão")
+console.log("comidasPreferidas"[0])
+console.log("comidasPreferidas"[1])
+console.log("comidasPreferidas"[2])
+console.log("comidasPreferidas"[3])
+console.log("comidasPreferidas"[4])
 
-//D
+//c. 
+const novaComida = prompt("Diga uma comida que você gosta?")
+comidasPreferidas[1] = novaComida
+console.log(comidasPreferidas)
+
+//
+
 
 //----Exercicio 3
 
-const listaDeTarefas = prompt("Insira 3 tarefas que você precisa realizar durante o dia:")
+const listaDeTarefas = []
+const primeiraTarefa = prompt("Digite a primeira tarefa:")
+const segundaTarefa = prompt("Digite a segunda tarefa:")
+const terceiraTarefa = prompt("Digite a terceira tarefa:")
 
-console.log("lista de tarefas", listaDeTarefas)
+listaDeTarefas.push(primeiraTarefa)
+listaDeTarefas.push(segundaTarefa)
+listaDeTarefas.push(terceiraTarefa)
 
-// Obs: Não terminei a número 3, assim que conseguir terminar eu atualizo no repositorio.
+console.log(listaDeTarefas)
+
+const tarefaRealizada = prompt("Digite o indice de uma tarefa que já realizou: 0, 1 ou 2")
+
+listaDeTarefas.splice(Number(tarefaRealizada), 1)
+
+console.log(listaDeTarefas)
+
+
+//---------------------------------------------Desafios--------------------------------------------
+
+
+//1.
+const minhaFrase = "Eu gosto de laranja!"
+const minhaFraseArray = minhaFrase.split(" ")
+
+console.log(minhaFraseArray)
+
+
+//2.
+const frutas = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"];
+const indexAbacaxi = frutas.indexOf("Abacaxi");
+
+const tamanhoArray = frutas.length;
+console.log("index Abacaxi", indexAbacaxi, "tamanho do Array:", tamanhoArray)
+

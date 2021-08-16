@@ -35,10 +35,10 @@ function imprimeIdade() {
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
-let peso = Number(prompt("Qual o seu peso?"))
-let altura = Number(prompt("Qual a sua altura"))
-calculaIMC = Peso ÷ (Altura × Altura)
-return console.log(peso / )
+const peso = Number(prompt("Qual o seu peso?"))
+const altura = Number(prompt("Qual a sua altura"))
+calculaIMC = Peso / (Altura * Altura)
+return console.log(peso, altura)
 
 }
 

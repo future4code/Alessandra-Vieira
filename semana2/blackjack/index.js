@@ -21,11 +21,11 @@ console.log(
 )
 
 if (pontosDoUsuario > pontosDoComputador) {
-  console.log('O usuário ganhou!')
+  console.log('Parabén, você ganhou!')
 } else if (pontosDoComputador > pontosDoUsuario) {
-  console.log('O computador ganhou!')
+  console.log('Não foi dessa vez, o computador ganhou!')
 } else if (pontosDoUsuario === pontosDoComputador) {
-  console.log('Empate!')
+  console.log('Os dois são vencedores!')
 } else {
-  console.log('O jogo acabou')
+  console.log('Fim de jogo')
 }

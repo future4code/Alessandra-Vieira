@@ -47,7 +47,11 @@ div img {
 }
 
 .botao-amarelo:hover {
-  background-color: #c44f00;
+  background-color: rgb(206, 200, 200);
+}
+
+.botao-amarelo:active {
+  background-color: white;
 }
 
 .container {

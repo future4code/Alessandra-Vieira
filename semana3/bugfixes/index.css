@@ -143,3 +143,7 @@ input {
 .container {
   font-family: 'Roboto', sans-serif;
 }
+
+div {
+  text-align: center;
+}

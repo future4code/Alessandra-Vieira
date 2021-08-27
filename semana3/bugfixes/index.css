@@ -43,15 +43,14 @@ div img {
   height: 40px;
   border-radius: 5px;
   font-size: 20px;
-  color: white;
 }
 
 .botao-amarelo:hover {
-  background-color: rgb(206, 200, 200);
+  background-color: rgba(255, 255, 255, 0.678);
 }
 
 .botao-amarelo:active {
-  background-color: white;
+  color: black;
 }
 
 .container {
@@ -126,14 +125,21 @@ td button {
   color: black;
 }
 
+input {
+  border-collapse: collapse;
+  border-bottom: 8px solid black;
+}
+
 #back-button:hover {
   background-color: #635a3d;
 }
 .centralizar {
   margin: 0 auto;
 }
-
 .tamanho-da-imagem img {
-  width: 80px;
-  height: 80px;
+  width: 30px;
+  height: px;
+}
+.container {
+  font-family: 'Roboto', sans-serif;
 }

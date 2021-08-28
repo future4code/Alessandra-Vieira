@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+  margin: 200;
+  padding: 200;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+.header-container {
+  height: 100vh;
+  width: 100vw;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 0 112px;
+  position: relative;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  position: relative;
+  top: -130px;
+}
+.social-media {
+  margin-top: 1rem;
+  display: flex;
+}
+.social-media a {
+  text-decoration: none;
+  color: rgb(236, 236, 236);
+  padding: 1rem 4rem;
+  border: 5px solid rgb(255, 251, 5);
+  min-width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+
+a:hover {
+  background-color: white;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 9999;
+  transition: 400ms ease-in-out 0s;
+}
+.checkbox .trace {
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  border-radius: 4px;
+  transition: 0.5s ease-in-out;
+}
+.checkbox .trace:nth-child(1) {
+  top: 55px;
+  transform: rotate(0);
+
+}
+.checkbox .trace:nth-child(2) {
+  top: 65px;
+  transform: rotate(0);
+}
+.checkbox .trace:nth-child(3) {
+  top: 75px;
+  transform: rotate(0);
+}
+.toggle {
+  display: none;
+}
+
+.menu {
+  position: absolute;
+  top: 28px;
+  right: 30px;
+  background-color: transparent;
+  height: 4px;
+  width: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 0px white;
+  z-index: -1;
+  transition: 400ms ease-in-out 0;
+}
+
+.colocando-imagem img {
+  height: 50px;
+  width: 50px;
+}
+
+.redondo {
+  width: 210px;
+  height: 210px;
+  background-color: white;
+  color: #fff;
+  border-radius: 10px 20px 30px;
+}
+.redondo {
+  /* Agora a mágica */
+  border-radius: 50%;
+}
+
+body {
+  background-image: url('https://media.istockphoto.com/photos/anime-background-of-comic-speed-radial-background-3d-illustration-picture-id1011498282?k=6&m=1011498282&s=170667a&w=0&h=rEKUnRTpat1jIruwyT5RitrfyhApIRPxqUaq8uDH7UY=');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.colocando-imagem img {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  border-style: 8px solid red;
+}
+
+button {
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(245, 229, 12);
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  border-color: black;
+  box-shadow: 3px 3px 2px 2px rgb(255, 255, 255);
+  margin-bottom: 5px !important;
+}
+
+button:hover {
+  background-color: rgb(252, 172, 0);
+  color: black;
+}
+
+button:active {
+  background-color: rgb(216, 247, 43);
+  color: yellow;
+}
+
+#imgpos {
+  position: absolute;
+  right: ;
+  :100px ; /* posiciona a 90px para a esquerda */
+  top: 13px; /* posiciona a 70px para baixo */
+}
+.container {
+  height: auto;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 3rem 0;
+}
+
+.card-container {
+  display: inline;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  position: relative;
+  margin-top: 100%;
+}
+/*
+.card 
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin: 3rem 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: turquoise;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(0.5);
+  color: rgb(42, 156, 118);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+
+/*
+.card-wrapper {
+  width: 100px;
+  height: 100px;
+  display: inline;
+  left: 100%;
+  top: 100%;
+  margin-top: 250px;
+  color: black;
+}
+
+#menu-vertical {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  margin-left: 110px;
+  margin-top: -250px;

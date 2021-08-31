@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page-flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+header {
+  background-color: mediumvioletred;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+img {
+  width: 20px;
+}
+
+main {
+  background-color: white;
+  flex-grow: 1;
+  display: flex;
+}
+footer {
+  background-color: mediumvioletred;
+  color: black;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  display: flex;
+  background-color: #f2d0e0;
+  width: 300px;
+}
+nav.img {
+  width: 20px;
+  margin-left: 100%;
+}
+.imagem-de-bolo {
+  height: 200px;
+  width: 200px;
+  grid-template-rows: repeat(7, 1fr);
+}
+.nome-da-loja {
+  margin-left: -88%;
+}
